@@ -1,0 +1,55 @@
+Each segment contains a specific group of devices or resources and is separated from other segments by network devices such as routers, switches, or firewalls. 
+
+devices to switches, switches to routers, routers to firewalls ...
+
+layers of network:
+	physical layer:
+	1) Common physical layer devices are Hub, Repeater, Modem, and Cables.
+	2) Physical layer specifies how the different, devices/nodes are arranged in a network 
+	   i.e. bus topology , star topology , or mesh topology .
+	3) Physical layer also defines how the data flows between the two connected devices. The
+	   various transmission modes possible are Simplex, half-duplex and full-duplex .   
+	4) The physical layer provides the synchronization of the bits by providing a clock.
+	   This clock controls both sender and receiver thus providing synchronization at the
+	   bit level.   
+	5) The Physical layer also defines the transmission rate i.e. the number of bits sent
+	   per second.
+	   
+	data link layer:
+	When a packet arrives in a network, it is the responsibility of the DLL to transmit it
+	to the Host using its MAC address. Packet in the Data Link layer is referred to as
+	Frame.
+	1) Switches and Bridges are common Data Link Layer devices.   
+	2) The Data Link Layer is divided into two sublayers:
+		Logical Link Control (LLC)
+    		Media Access Control (MAC)
+    	3) Framing: Framing is a function of the data link layer. It provides a way for a sender
+    	   to transmit a set of bits that are meaningful to the receiver. This can be
+    	   accomplished by attaching special bit patterns to the beginning and end of the frame.	
+    	4) Physical Addressing: After creating frames, the Data link layer adds physical
+    	   addresses ( MAC addresses ) of the sender and/or receiver in the header of each
+    	   frame.   
+    	5) The data link layer provides the mechanism of error control in which it detects and
+    	   retransmits damaged or lost frames.
+    	6) The data rate must be constant on both sides else the data may get corrupted thus,
+    	   flow control coordinates the amount of data that can be sent before receiving an
+    	   acknowledgment. 
+    	7) When a single communication channel is shared by multiple devices, the MAC sub-layer
+           of the data link layer helps to determine which device has control over the channel
+           at a given time.  
+           
+        network layer:
+        The network layer works for the transmission of data from one host to the other located
+        in different networks. It also takes care of packet routing i.e. selection of the
+        shortest path to transmit the packet, from the number of routes available. The sender
+        and receiver’s IP address are placed in the header by the network layer. Segment in the
+        Network layer is referred to as Packet. Network layer is implemented by networking
+        devices such as routers and switches.  
+        1)    
+    	   
+    	   
+    	   
+    	   
+    	   
+    	   
+    	     
