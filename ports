@@ -1,0 +1,26 @@
+PORTS:
+
+	in a computer data is first received using their IP or MAC address then it is delivered
+	to the application whose port number is with the data packets.
+	Ports help computer to differentiate between incoming and outgoing traffic.
+	the port is a 16-bit unsigned number.
+	
+	types of ports:
+	    1) Well Known Port
+    	    2) Registered port
+            3) Dynamic Port
+            
+        1) It is from the range 0 to 1023
+           It is reserved for common and specifically used service
+           It is used by some widely adopted protocols and services like HTTP(port 80),
+           	FTP(port21), DNS(Port 53), SSH(port 22), etc...  
+        2) It is from range 1024 to 49151
+           These are used by applications or services that are not as common
+           Organizations can ask IANA(Internet Assigned Number Authority) for any specific port
+           	number within this range   	  
+        3) It is from range 49152 to 65535
+           It is also known as Ephemeral or Private Port
+           It is used for those connections that are temporary or short-lived
+           It is not registered or assigned and can be used by any process
+           
+              	

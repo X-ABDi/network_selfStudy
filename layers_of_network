@@ -3,7 +3,7 @@ Each segment contains a specific group of devices or resources and is separated 
 devices to switches, switches to routers, routers to firewalls ...
 
 layers of network:
-	physical layer:
+	PHYSICAL LAYER:
 	1) Common physical layer devices are Hub, Repeater, Modem, and Cables.
 	2) Physical layer specifies how the different, devices/nodes are arranged in a network 
 	   i.e. bus topology , star topology , or mesh topology .
@@ -15,7 +15,7 @@ layers of network:
 	5) The Physical layer also defines the transmission rate i.e. the number of bits sent
 	   per second.
 	   
-	data link layer:
+	DATA LINK LAYER:
 	When a packet arrives in a network, it is the responsibility of the DLL to transmit it
 	to the Host using its MAC address. Packet in the Data Link layer is referred to as
 	Frame.
@@ -38,14 +38,20 @@ layers of network:
            of the data link layer helps to determine which device has control over the channel
            at a given time.  
            
-        network layer:
+        NETWORK LAYER:
         The network layer works for the transmission of data from one host to the other located
         in different networks. It also takes care of packet routing i.e. selection of the
         shortest path to transmit the packet, from the number of routes available. The sender
         and receiver’s IP address are placed in the header by the network layer. Segment in the
-        Network layer is referred to as Packet. Network layer is implemented by networking
+        Network layer is referred to as PACKET. Network layer is implemented by networking
         devices such as routers and switches.  
-        1)    
+        1) The network layer protocols determine which route is suitable from source to
+           destination.   
+        2) The sender and receiver’s IP addresses are placed in the header by the network
+           layer.   
+           
+        TRANSPORT LAYER:
+           
     	   
     	   
     	   
